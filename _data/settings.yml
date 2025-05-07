@@ -1,12 +1,12 @@
 menu:
-- {name: 'people', url: '/people'}
+- {name: 'awards', url: '/awards'}
 - {name: 'publications', url: '/publications'}
-- {name: 'courses', url: '/courses'}
+- {name: 'science communication', url: '/science communication'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
-people:
-- {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+Awards:
+- {name: 'Awards for Research Funding and Professional Development', title: 'Society for Neuroscience', department: 'Trainee Professional Development Award (TDPA)', institution: '2024', institution_address: 'Awarded for the abstract titled A history of adolescent drinking increases myelination of axons within the corticotropin releasing factor-enriched subregion of the central amygdala in adult mice.', phone: 'Award for travel to the 2024 Society for Neuroscience Conference in Chicago, Illinois.', email: 'Attended events for professional development training.', office: 'Poster', image: 'assets/img/primary-investigator.jpg', url: 'awards'}
 - {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
 - {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
