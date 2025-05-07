@@ -1,4 +1,4 @@
 ---
 layout: awards
-title: "awards"
+title: "Awards"
 ---
