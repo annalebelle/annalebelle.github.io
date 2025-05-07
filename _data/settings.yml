@@ -1,8 +1,9 @@
 menu:
-- {name: 'awards', url: '/awards'}
-- {name: 'courses', url: '/courses'}
+
 - {name: 'publications', url: '/publications'}
 - {name: 'science communication', url: '/science communication'}
+- {name: 'awards', url: '/awards'}
+- {name: 'courses', url: '/courses'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
