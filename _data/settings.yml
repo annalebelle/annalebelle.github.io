@@ -1,14 +1,20 @@
 menu:
 - {name: 'awards', url: '/awards'}
+- {name: 'courses', url: '/courses'}
 - {name: 'publications', url: '/publications'}
 - {name: 'science communication', url: '/science communication'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
-Awards:
+awards:
 - {name: 'Awards for Research Funding and Professional Development', title: 'Society for Neuroscience', department: 'Trainee Professional Development Award (TDPA)', institution: '2024', institution_address: 'Awarded for the abstract titled A history of adolescent drinking increases myelination of axons within the corticotropin releasing factor-enriched subregion of the central amygdala in adult mice.', phone: 'Award for travel to the 2024 Society for Neuroscience Conference in Chicago, Illinois.', email: 'Attended events for professional development training.', office: 'Poster', image: 'assets/img/Oligodendrocyte.jpg', url: 'awards'}
 - {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
 - {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
+
+courses:
+- {name: 'Vector Calculus', url: 'vector-calculus'}
+- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
+- {name: 'Stellar Structures', url: 'stellar-structures'}
 
 science communication:
 - {name: 'What is a postbac', url: 'postbac'}
