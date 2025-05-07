@@ -3,6 +3,4 @@ layout: home
 title: "Home"
 ---
 
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
-
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group. This is a test.
+Pursuing a PhD in Neuroscience, specifically in the study of the neuronal mechanisms of maladaptive reward and stress behaviors that induce pathological conditions such as alcohol binge drinking, drug addiction, and eating disorders. I am interested in addiction and the intersection of stress and reward circuits modulating the transition from substance use to dependence. 
