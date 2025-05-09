@@ -12,9 +12,8 @@
       </div>
       <div class="col-md-10">
         {% for section in site.data.publications.2021 %}
-          <p class="fw-bold">{{ section.title }}</p>
+          <p class="fw-bold"><a href="{{ section.url }}">{{ section.title }}</a></p>
           <p>{{ section.description }}</p>
-         <p><a href="{{ section.url }}">{{ section.title }}</a></p>
         {% endfor %}
       </div>
     </div>
@@ -24,9 +23,8 @@
       </div>
       <div class="col-md-10">
         {% for section in site.data.publications.2020 %}
-          <p class="fw-bold">{{ section.title }}</p>
+          <p class="fw-bold"><a href="{{ section.url }}">{{ section.title }}</a></p>
           <p>{{ section.description }}</p>
-          <p><a href="{{ section.url }}">{{ section.title }}</a></p>
         {% endfor %}
             {% endif %}
   </div>
