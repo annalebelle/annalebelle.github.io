@@ -6,35 +6,47 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Education</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.education %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
-      </div>
-    </div>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Academic Experience</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
-      </div>
-    </div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Mentorship</h3>
         <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Professional Positions and Employment</h4>
+        <h4>NSB Community and Social Coordinator</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.employment %}
+        {% for section in site.data.mentorship.nsb-community-social-umass %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+  </div>
+</div>
+        <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>PREP Near Peer Mentor </h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.mentorship.prep-mentor-umass %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>NSF Graduate Research Fellowship Program (GRFP) Mentor</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.mentorship.grfp-mentor-umass %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+        <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Student Mentors Project</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.mentorship.student-mentors-pucpr %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
