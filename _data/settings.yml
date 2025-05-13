@@ -13,17 +13,6 @@ mentorship:
 - {name: 'PREP Near Peer Mentor', url: 'prep-mentor-umass'}
 - {name: 'NSB Community and Social Coordinator', url: 'nsb-community-social-umass'}
 
-
-courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
-
-sci-comm:
-- {name: 'What is a postbac', url: 'postbac'}
-- {name: 'Quarantine blues?', url: 'isolation'}
-- {name: 'Conditioned addiction?', url: 'addiction'}
-
 social:
 - {icon: 'github', link: 'https://github.com/annalebelle'}
 - {icon: 'twitter', link: 'https://twitter.com/annalebelle'}
