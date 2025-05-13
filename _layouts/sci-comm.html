@@ -31,3 +31,37 @@ layout: default
         {% endfor %}
   </div>
 </div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>2020</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.sci-comm.2020 %}
+          <p class="fw-bold"><a href="{{ section.url }}">{{ section.title }}</a></p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+  </div>
+</div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>2019</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.sci-comm.2019 %}
+          <p class="fw-bold"><a href="{{ section.url }}">{{ section.title }}</a></p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+  </div>
+</div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>2018</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.sci-comm.2018 %}
+          <p class="fw-bold"><a href="{{ section.url }}">{{ section.title }}</a></p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+  </div>
+</div>
+
