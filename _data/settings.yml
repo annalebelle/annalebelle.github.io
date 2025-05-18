@@ -3,7 +3,6 @@ menu:
 - {name: 'publications', url: '/publications'}
 - {name: 'sci-comm', url: '/sci-comm'}
 - {name: 'mentorship', url: '/mentorship'}
-- {name: 'courses', url: '/courses'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
