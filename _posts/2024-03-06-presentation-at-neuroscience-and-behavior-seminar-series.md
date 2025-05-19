@@ -5,4 +5,4 @@ date: 2024-03-06
 url: 2024-03-06-nsb-seminar
 ---
 
-I successfuly presented for the Neuroscience and Behavior community at the University of Massachusetts Amherst, Old Chapel, Amherst, MA as a completion requirement for PhD candidacy. 
+I am excited to present my graduate research for the Neuroscience and Behavior community at the University of Massachusetts Amherst, Old Chapel, Amherst, MA.
