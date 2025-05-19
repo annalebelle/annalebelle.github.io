@@ -8,7 +8,7 @@ layout: default
     {{content}}
   </div>
   <div class="col-md-6">
-    <img src="{{ site.github.url }}/assets/img/hiking.jpg" alt="hiking" width="100%">
+    <img src="{{ site.github.url }}/assets/img/headshot.png" alt="headshot" width="100%">
   </div>
 </div>
 
@@ -18,7 +18,7 @@ layout: default
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">News</h3>
     {% for post in site.posts %}
-      <p class="fw-bold">{{ post.date | date: "%B %-d, %Y" }} - <a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a></p>
+      <p class="fw-bold">{{ post.date | date: "%B %-d, %Y" }} - <a href="{{ site.github.url }}//{{ post.url }}">{{ post.title }}</a></p>
     {% endfor %}
   </div>
 </div>
