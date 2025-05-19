@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trainee Professional Development Award"
+title: "Awarded the SFN Trainee Professional Development Award"
 date: 2024-08-01
 url: 2024-08-01-tpda
 ---

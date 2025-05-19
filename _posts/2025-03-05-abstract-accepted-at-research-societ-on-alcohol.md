@@ -5,4 +5,4 @@ date: 2025-03-05
 url: 2025-03-05-rsa
 ---
 
-Abstract for Poster Presentation was selected to present on the 48th Annual RSA Scientific Meeting/ISBRA Congress in New Orleans, Louisiana. 
+I am very excited to attend and present a poster at the 48th Annual RSA Scientific Meeting/ISBRA Congress in New Orleans, Louisiana.
