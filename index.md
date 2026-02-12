@@ -7,4 +7,4 @@ I am a PhD candidate in the Neuroscience and Behavior Program at the University 
 
 As a neuroscientist, I am interested in the cellular mechanisms underlying the maladaptive reward and stress behaviors that induce pathological conditions such as alcohol binge drinking, drug addiction, and eating disorders. 
 
-Keywords: Addiction, Alcohol, Oligodendrocytes, Stress, Reward, Neuropeptides, Behavior
+Keywords: Addiction, Alcohol, Stress, Reward, Neuropeptides, Behavior
