@@ -6,6 +6,17 @@
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
     {% else %}
+        <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>2021</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.publications.2026 %}
+          <p class="fw-bold"><a href="{{ section.url }}">{{ section.title }}</a></p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4>2021</h4>
