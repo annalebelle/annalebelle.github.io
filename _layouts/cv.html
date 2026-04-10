@@ -6,27 +6,18 @@ layout: default
 {{ content }}
 
 <div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Documents</h3>
+  <div class="col-md-2">
+    {% assign cv = site.data.cv.2026CVpdf[0] %}
+    <h4>
+      <a href="{{ cv.url }}" target="_blank"></a>class="text-decoration-none text-dark">CV</a>
+    </h4>
+  </div>
 
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Files</h4>
-      </div>
-
-      <div class="col-md-10">
-        {% assign cv = site.data.cv.2026CVpdf[0] %}
-        <p class="fw-bold">
-          <a href="{{ cv.url }}">CV</a>
-        </p>
-
-        {% assign resume = site.data.cv.2026Resumepdf[0] %}
-        <p class="fw-bold">
-          <a href="{{ resume.url }}">Resume</a>
-        </p>
-      </div>
-    </div>
-
+  <div class="col-md-10">
+    {% assign resume = site.data.cv.2026Resumepdf[0] %}
+    <p class="fw-bold">
+      <a href="{{ resume.url }}">Resume</a>
+    </p>
   </div>
 </div>
         </div>
