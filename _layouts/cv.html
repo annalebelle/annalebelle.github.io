@@ -10,26 +10,30 @@ layout: default
     <h3 class="fw-bold border-bottom pb-3 mb-5">Curriculum Vitae</h3>
 
     <!-- CV -->
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        {% assign cv = site.data.cv.2026CVpdf[0] %}
-        <h4>
-          <a href="{{ cv.url }}" class="text-decoration-none text-dark">CV</a>
-        </h4>
-      </div>
-      <div class="col-md-10"></div>
-    </div>
+<div class="row g-5 mb-5">
+  <div class="col-md-2">
+    <h4>CV</h4>
+  </div>
+  <div class="col-md-10">
+    {% assign cv = site.data.cv.2026CVpdf[0] %}
+    <a href="{{ cv.url }}" class="btn btn-primary" target="_blank">
+      Download CV
+    </a>
+  </div>
+</div>
 
-    <!-- Resume -->
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        {% assign resume = site.data.cv.2026Resumepdf[0] %}
-        <h4>
-          <a href="{{ resume.url }}" class="text-decoration-none text-dark">Resume</a>
-        </h4>
-      </div>
-      <div class="col-md-10"></div>
-    </div>
+<!-- Resume -->
+<div class="row g-5 mb-5">
+  <div class="col-md-2">
+    <h4>Resume</h4>
+  </div>
+  <div class="col-md-10">
+    {% assign resume = site.data.cv.2026Resumepdf[0] %}
+    <a href="{{ resume.url }}" class="btn btn-outline-primary" target="_blank">
+      Download Resume
+    </a>
+  </div>
+</div>
 
     <!-- Education -->
     <div class="row g-5 mb-5">
