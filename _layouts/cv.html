@@ -6,23 +6,34 @@ layout: default
 {{ content }}
 
 <div class="row g-5 mb-5">
-  <div class="col-md-2">
-    {% assign cv = site.data.cv.2026CVpdf[0] %}
-    <h4>
-      <a href="{{ cv.url }}" target="_blank"></a>class="text-decoration-none text-dark">CV</a>
-    </h4>
-  </div>
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Curriculum Vitae</h3>
 
-  <div class="col-md-10">
-    {% assign resume = site.data.cv.2026Resumepdf[0] %}
-    <p class="fw-bold">
-      <a href="{{ resume.url }}">Resume</a>
-    </p>
-  </div>
-</div>
-        </div>
-      <div class="row g-5 mb-5">
-        <div class="col-md-2">
+    <!-- CV -->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        {% assign cv = site.data.cv.2026CVpdf[0] %}
+        <h4>
+          <a href="{{ cv.url }}" class="text-decoration-none text-dark">CV</a>
+        </h4>
+      </div>
+      <div class="col-md-10"></div>
+    </div>
+
+    <!-- Resume -->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        {% assign resume = site.data.cv.2026Resumepdf[0] %}
+        <h4>
+          <a href="{{ resume.url }}" class="text-decoration-none text-dark">Resume</a>
+        </h4>
+      </div>
+      <div class="col-md-10"></div>
+    </div>
+
+    <!-- Education -->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
         <h4>Education</h4>
       </div>
       <div class="col-md-10">
@@ -32,6 +43,8 @@ layout: default
         {% endfor %}
       </div>
     </div>
+
+    <!-- Research Funding and Awards -->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4>Research Funding and Awards</h4>
@@ -43,7 +56,9 @@ layout: default
         {% endfor %}
       </div>
     </div>
-        <div class="row g-5 mb-5">
+
+    <!-- Employment -->
+    <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4>Employment</h4>
       </div>
@@ -52,5 +67,8 @@ layout: default
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
+      </div>
+    </div>
+
   </div>
 </div>
