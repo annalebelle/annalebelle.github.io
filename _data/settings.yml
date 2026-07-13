@@ -19,4 +19,4 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/annalebelle'}
 
 contacts:
-- {name: 'Annabelle Flores Bonilla', title: 'Neuroscience and Behavior PhD Candidate', department: 'Psychological and Brain Sciences', institution: 'University of Massachusetts', institution_address: 'Amherst, MA', email: 'afloresbonil@umass.edu', office: 'Morrill Science Center', image: 'assets/img/Profile Picture 2024.jpg'}
+- {name: 'Annabelle Flores Bonilla, PhD', title: 'Postdoctoral Research Associate', department: 'Translational Medicine', institution: 'The Scripps Research Institute', institution_address: '1055 N. Torrey Pines Road', email: 'aflores@scripps.edu', office: 'Stein Building', image: 'assets/img/Profile Picture 2024.jpg'}
