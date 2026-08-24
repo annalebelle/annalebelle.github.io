@@ -11,5 +11,4 @@ I am very excited to attend and present a poster at the 48th Annual RSA Scientif
 
 *Update* It was an amazing time meeting people and reconnecting with alcohol researchers! I especially thank Dr. John Hernandez for connecting me with Dr. Rebecca Oramas, a posdoctoral researcher and data visualization graphic artist at Brown University. It was incredible seeing the research conducted and the passion for understanding alcohol's effects in the brain.
 
-With love,
-Annabelle
+Kind regards, Annabelle
